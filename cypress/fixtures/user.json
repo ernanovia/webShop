@@ -1,0 +1,88 @@
+{
+    "failedRegist" : [
+       {
+        "firstName" : " ",
+        "lastName" : "lastnameku",
+        "email" : " ",
+        "password": "123456",
+        "confirmPass": "123456"
+       },
+       {
+        "firstName" : "firstnameku",
+        "lastName" : " ",
+        "email" : " ",
+        "password": "123456",
+        "confirmPass": "123456"
+       },
+       {
+        "firstName" : "firstnameku",
+        "lastName" : "lastnameku",
+        "email" : "invalid email",
+        "password": "123456",
+        "confirmPass": "123456"
+       },
+       {
+        "firstName" : "registered email",
+        "lastName" : "lastnameku",
+        "email" : "ernasabecode@yopmail.com",
+        "password": "123456",
+        "confirmPass": "123456"
+       },
+       {
+        "firstName" : "passless6",
+        "lastName" : "lastnameku",
+        "email" : " ",
+        "password": "12345",
+        "confirmPass": "12345"
+       },
+       {
+        "firstName" : "confirmpass not same",
+        "lastName" : "lastnameku",
+        "email" : " ",
+        "password": "123456",
+        "confirmPass": "12345"
+       },
+       {
+        "firstName" : "firstnameku",
+        "lastName" : "lastnameku",
+        "email" : " ",
+        "password": "123456",
+        "confirmPass": "123456"
+       }
+       
+
+    ],
+
+    "successRegist" : [
+        {
+            "firstName" : "firstnameku",
+            "lastName" : "lastnameku",
+            "email" : " ",
+            "password": "123456",
+            "confirmPass": "123456"
+           }
+    ],
+
+    "failedLogin" : [
+        {
+            "email" : " ",
+            "password" : " "
+        },
+        {
+            "email" : "invalidEmail",
+            "password" : "123456 "
+        },
+        {
+            "email" : "unregistedemail@yopmail.com",
+            "password" : "wrongPassword"
+        },
+        {
+            "email" : "ernasabecode@yopmail.com",
+            "password" : "wrongPassword"
+        }
+    ],
+
+    "successLogin" : [
+
+    ]
+}

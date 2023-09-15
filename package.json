@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress run --spec cypress/e2e/3-web-shop/register.cy.js,cypress/e2e/3-web-shop/login.cy.js"
   },
   "author": "",
   "license": "ISC",
